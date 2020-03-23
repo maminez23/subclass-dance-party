@@ -3,6 +3,7 @@ var makejigglyDancer = function(top, left, timeBetweenSteps) {
     // so we must keep a copy of the old version of this function
     MakeDancer.call(this,top, left, timeBetweenSteps);
     this.$node = $('<span class="dancer1"></span>')
+    this.setPosition(top, left)
 
 };
 
